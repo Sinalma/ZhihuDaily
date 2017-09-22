@@ -1,0 +1,51 @@
+//
+//  PrefixHeader.pch
+//  ZhihuDaily
+//
+//  Created by apple on 22/09/2017.
+//  Copyright © 2017 sinalma. All rights reserved.
+//
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "SINConst.h"
+#import "UIView+Category.h"
+
+// 日志输出
+#ifdef DEBUG // 开发阶段-DEBUG阶段:使用Log
+#define SINLog(...) NSLog(__VA_ARGS__)
+#else // 发布阶段-上线阶段:移除Log
+#define SINLog(...)
+#endif
+
+// 屏蔽打印时间戳等信息
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(...)
+#endif
+
+//GCD - 一次性执行
+#define SINDISPATCH_ONCE_BLOCK(onceBlock) static dispatch_once_t onceToken; dispatch_once(&onceToken, onceBlock);
+//GCD - 在Main线程上运行
+#define SINDISPATCH_MAIN_THREAD(mainQueueBlock) dispatch_async(dispatch_get_main_queue(), mainQueueBlock);
+//GCD - 开启异步线程
+#define SINDISPATCH_GLOBAL_QUEUE_DEFAULT(globalQueueBlock) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), globalQueueBlocl);
+
+// 判断真机还是模拟器
+#if TARGET_OS_IPHONE
+//iPhone Device
+#endif
+#if TARGET_IPHONE_SIMULATOR
+//iPhone Simulator
+#endif
+
+
+#define SINGetImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]//获取图片资源
+#define SINColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define SINNotificationCenter [NSNotificationCenter defaultCenter]// 通知中心
+
+#endif /* PrefixHeader_pch */
