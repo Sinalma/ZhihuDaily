@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "HomeViewController.h"
+#import "UIImageView+WebImageCategory.h"
+#import "SINLaunchAnimateViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -15,17 +18,29 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.rootViewController = [[HomeViewController alloc] init];
     [self.window makeKeyAndVisible];
     
+    [self loadLaunchImage];
     return YES;
 }
 
+- (void)loadLaunchImage
+{
+    UIImageView *launchImgV= [[UIImageView  alloc] init];
+    launchImgV.frame = [UIScreen mainScreen].bounds;
+    [launchImgV sin_setImageWithUrlStr:@"http://litten.me/ins/BW_0-LNAEQy.jpg"];
+    
+    SINLaunchAnimateViewController *launchVC = [[SINLaunchAnimateViewController alloc] initWitContentView:launchImgV animateType:SINLaunchAnimateTypeFade isShowSkipButton:YES skipBtnType:SINLaunchSkipButtonTypeOval];
+    launchVC.complete = ^{
+        SINLog(@"AppDelegate : launch page show end.");
+    };
+    [launchVC show];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

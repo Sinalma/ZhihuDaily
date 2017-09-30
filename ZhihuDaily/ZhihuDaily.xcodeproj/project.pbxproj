@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181571C71F7F771E00D95510 /* SINImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 181571C61F7F771E00D95510 /* SINImageDownloader.m */; };
+		181571CA1F7F77D200D95510 /* NSString+Cateogry.m in Sources */ = {isa = PBXBuildFile; fileRef = 181571C91F7F77D200D95510 /* NSString+Cateogry.m */; };
+		181571CD1F7F785500D95510 /* UIImageView+WebImageCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 181571CC1F7F785500D95510 /* UIImageView+WebImageCategory.m */; };
+		181571D01F7F786D00D95510 /* UIButton+WebImageCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 181571CF1F7F786D00D95510 /* UIButton+WebImageCategory.m */; };
+		181571D31F7F791800D95510 /* SINLaunchSkipButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 181571D21F7F791800D95510 /* SINLaunchSkipButton.m */; };
+		181571D61F7F796100D95510 /* SINLaunchAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181571D51F7F796100D95510 /* SINLaunchAnimateViewController.m */; };
+		181571D91F7F79C200D95510 /* SINLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181571D81F7F79C200D95510 /* SINLanguageManager.m */; };
+		181571DC1F7F7BAB00D95510 /* SINEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 181571DB1F7F7BAB00D95510 /* SINEncoding.m */; };
+		181571DF1F7F7BD500D95510 /* SINNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 181571DE1F7F7BD500D95510 /* SINNetworking.m */; };
 		189510001F73FB2500DB6754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18950FFF1F73FB2500DB6754 /* AppDelegate.m */; };
 		189510181F73FB2500DB6754 /* ZhihuDailyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189510171F73FB2500DB6754 /* ZhihuDailyTests.m */; };
 		189510231F73FB2500DB6754 /* ZhihuDailyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189510221F73FB2500DB6754 /* ZhihuDailyUITests.m */; };
@@ -35,6 +44,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181571C51F7F771E00D95510 /* SINImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINImageDownloader.h; sourceTree = "<group>"; };
+		181571C61F7F771E00D95510 /* SINImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINImageDownloader.m; sourceTree = "<group>"; };
+		181571C81F7F77D200D95510 /* NSString+Cateogry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Cateogry.h"; sourceTree = "<group>"; };
+		181571C91F7F77D200D95510 /* NSString+Cateogry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Cateogry.m"; sourceTree = "<group>"; };
+		181571CB1F7F785500D95510 /* UIImageView+WebImageCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebImageCategory.h"; sourceTree = "<group>"; };
+		181571CC1F7F785500D95510 /* UIImageView+WebImageCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebImageCategory.m"; sourceTree = "<group>"; };
+		181571CE1F7F786D00D95510 /* UIButton+WebImageCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebImageCategory.h"; sourceTree = "<group>"; };
+		181571CF1F7F786D00D95510 /* UIButton+WebImageCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebImageCategory.m"; sourceTree = "<group>"; };
+		181571D11F7F791800D95510 /* SINLaunchSkipButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINLaunchSkipButton.h; sourceTree = "<group>"; };
+		181571D21F7F791800D95510 /* SINLaunchSkipButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINLaunchSkipButton.m; sourceTree = "<group>"; };
+		181571D41F7F796100D95510 /* SINLaunchAnimateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINLaunchAnimateViewController.h; sourceTree = "<group>"; };
+		181571D51F7F796100D95510 /* SINLaunchAnimateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINLaunchAnimateViewController.m; sourceTree = "<group>"; };
+		181571D71F7F79C200D95510 /* SINLanguageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINLanguageManager.h; sourceTree = "<group>"; };
+		181571D81F7F79C200D95510 /* SINLanguageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINLanguageManager.m; sourceTree = "<group>"; };
+		181571DA1F7F7BAB00D95510 /* SINEncoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINEncoding.h; sourceTree = "<group>"; };
+		181571DB1F7F7BAB00D95510 /* SINEncoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINEncoding.m; sourceTree = "<group>"; };
+		181571DD1F7F7BD500D95510 /* SINNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINNetworking.h; sourceTree = "<group>"; };
+		181571DE1F7F7BD500D95510 /* SINNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINNetworking.m; sourceTree = "<group>"; };
 		18950FFB1F73FB2500DB6754 /* ZhihuDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhihuDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18950FFE1F73FB2500DB6754 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18950FFF1F73FB2500DB6754 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +114,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181571C11F7F76F100D95510 /* WebImage */ = {
+			isa = PBXGroup;
+			children = (
+				181571C51F7F771E00D95510 /* SINImageDownloader.h */,
+				181571C61F7F771E00D95510 /* SINImageDownloader.m */,
+				181571C81F7F77D200D95510 /* NSString+Cateogry.h */,
+				181571C91F7F77D200D95510 /* NSString+Cateogry.m */,
+				181571CB1F7F785500D95510 /* UIImageView+WebImageCategory.h */,
+				181571CC1F7F785500D95510 /* UIImageView+WebImageCategory.m */,
+				181571CE1F7F786D00D95510 /* UIButton+WebImageCategory.h */,
+				181571CF1F7F786D00D95510 /* UIButton+WebImageCategory.m */,
+			);
+			path = WebImage;
+			sourceTree = "<group>";
+		};
+		181571C21F7F76F100D95510 /* LaunchAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				181571D11F7F791800D95510 /* SINLaunchSkipButton.h */,
+				181571D21F7F791800D95510 /* SINLaunchSkipButton.m */,
+				181571D41F7F796100D95510 /* SINLaunchAnimateViewController.h */,
+				181571D51F7F796100D95510 /* SINLaunchAnimateViewController.m */,
+			);
+			path = LaunchAnimate;
+			sourceTree = "<group>";
+		};
+		181571C31F7F76F100D95510 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				181571D71F7F79C200D95510 /* SINLanguageManager.h */,
+				181571D81F7F79C200D95510 /* SINLanguageManager.m */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		181571C41F7F76F100D95510 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				181571DA1F7F7BAB00D95510 /* SINEncoding.h */,
+				181571DB1F7F7BAB00D95510 /* SINEncoding.m */,
+				181571DD1F7F7BD500D95510 /* SINNetworking.h */,
+				181571DE1F7F7BD500D95510 /* SINNetworking.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1886FCBC1F7E9AF40000FDE3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1886FCBE1F7E9B200000FDE3 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				181571C31F7F76F100D95510 /* Language */,
+				181571C21F7F76F100D95510 /* LaunchAnimate */,
+				181571C41F7F76F100D95510 /* Networking */,
+				181571C11F7F76F100D95510 /* WebImage */,
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
 		18950FF21F73FB2500DB6754 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +235,8 @@
 			children = (
 				189510311F748A7600DB6754 /* Home */,
 				189510361F748A7600DB6754 /* Other */,
+				1886FCBC1F7E9AF40000FDE3 /* Login */,
+				1886FCBE1F7E9B200000FDE3 /* Units */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -457,11 +550,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181571DF1F7F7BD500D95510 /* SINNetworking.m in Sources */,
 				189510531F74A53000DB6754 /* main.m in Sources */,
 				189510001F73FB2500DB6754 /* AppDelegate.m in Sources */,
 				189510461F748CF500DB6754 /* HomeViewController.m in Sources */,
+				181571DC1F7F7BAB00D95510 /* SINEncoding.m in Sources */,
+				181571D01F7F786D00D95510 /* UIButton+WebImageCategory.m in Sources */,
+				181571D31F7F791800D95510 /* SINLaunchSkipButton.m in Sources */,
+				181571CA1F7F77D200D95510 /* NSString+Cateogry.m in Sources */,
+				181571C71F7F771E00D95510 /* SINImageDownloader.m in Sources */,
+				181571D61F7F796100D95510 /* SINLaunchAnimateViewController.m in Sources */,
+				181571D91F7F79C200D95510 /* SINLanguageManager.m in Sources */,
 				189510511F74A0AD00DB6754 /* UIView+Category.m in Sources */,
 				1895104B1F749F1A00DB6754 /* SINConst.m in Sources */,
+				181571CD1F7F785500D95510 /* UIImageView+WebImageCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,7 +642,7 @@
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -595,7 +697,7 @@
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -625,7 +727,6 @@
 			baseConfigurationReference = 2C56765F89839593E801E240 /* Pods-ZhihuDaily.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8LLH3F654;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
@@ -636,6 +737,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhuang.ZhihuDaily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -644,7 +746,6 @@
 			baseConfigurationReference = FE6F088E3F2F068C6AA2324C /* Pods-ZhihuDaily.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8LLH3F654;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
@@ -655,6 +756,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhuang.ZhihuDaily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
